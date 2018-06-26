@@ -1,0 +1,45 @@
+.frow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.fcolumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  color: $c-body;
+  font-size: 1rem;
+  font-family: $f-body;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: $f-title;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-family: $f-title;
+}
+
+article.content {
+  h2, h3 {
+    margin-bottom: 1rem;
+  }
+
+  p.emphase {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  p.text {
+    font-size: 0.8rem;
+    max-width: 25rem;
+  }
+}

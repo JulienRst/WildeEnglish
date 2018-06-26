@@ -1,0 +1,36 @@
+section.reminder {
+  .ctn-remind {
+    padding: 4rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+
+    .remind {
+      width: calc(50% - 2rem);
+
+      &:nth-child(2n -1) {
+        margin-right: 4rem;
+      }
+
+      .ctn-img {
+        margin-right: 1rem;
+      }
+
+      .title {
+        justify-content: flex-start;
+        align-items: center;
+        .underscore {
+          width: 3rem;
+          height: 1px;
+          background-color: black;
+          display: block;
+          margin-right: 1rem;
+        }
+      }
+
+      .text {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

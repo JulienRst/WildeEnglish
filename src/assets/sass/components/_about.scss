@@ -1,0 +1,58 @@
+section.about {
+  min-height: 100vh; // TODO Remove
+  align-items: flex-start;
+  .learning, .fiona {
+    width: 100%;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 40%;
+  }
+
+  .ctn-img {
+    .ctn-zebra {
+      position: relative;
+      max-width: 400px;
+      .zebra {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .ctn-portrait {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .fiona {
+    margin-top: -2rem;
+    position: relative;
+    .content {
+      padding-left: 10%;
+      align-items: flex-start;
+    }
+
+    .bottom-mention {
+      position: absolute;
+      width: 75%;
+      left: 0;
+      bottom: 0;
+      background-color: white;
+      padding: 1rem;
+      align-items: flex-start;
+
+      .content {
+        padding: 2rem;
+        width: 33%;
+      }
+    }
+  }
+}

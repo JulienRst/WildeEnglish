@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  height: 100vh;
+
+  h1, .quote, .artist {
+    text-align: center;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .quote {
+    max-width: 30rem;
+    margin-bottom: 1rem;
+  }
+
+  .artist {
+    font-style: italic;
+
+    &::before, &::after {
+      content: '-';
+    }
+  }
+}
