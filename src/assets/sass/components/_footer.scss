@@ -5,17 +5,22 @@ footer {
   }
 
   .info {
-    padding: 1rem;
+    padding: 2rem;
     width: 50%;
     align-items: flex-end;
     text-align: right;
 
     .ctn-linkedin {
       margin: 1.5rem 0;
+
+      img {
+        width: 3rem;
+      }
     }
 
     .details {
       margin-bottom: 2rem;
+      align-items: flex-end;
 
       div {
         margin-bottom: 0.3rem;

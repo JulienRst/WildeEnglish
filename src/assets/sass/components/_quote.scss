@@ -1,9 +1,13 @@
 section.quote {
-  min-height: 70vh;
+  min-height: 80vh;
   justify-content: space-between;
 
   img {
     width: 100%;
+
+    &.border-bottom {
+      transform: rotate(180deg);
+    }
   }
 
   .quotation {

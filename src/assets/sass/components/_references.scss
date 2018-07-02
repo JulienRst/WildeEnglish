@@ -1,18 +1,34 @@
 section.references {
   .ctn-references {
     width: 100%;
+    background-color: $green;
+
     .sprt {
       width: 100%;
+      margin: 0;
+      padding: 0;
+      // TODO : Find why this fucking white space is going here...
+      &:nth-child(3) {
+        transform: translateY(4px);
+      }
     }
 
     .references {
-      padding: 2rem;
+      padding: 6rem 2rem;
+
+      .brand {
+        max-width: 20rem;
+      }
 
       .inner-references {
+        padding: 0 6rem;
         margin-top: 2rem;
         flex-wrap: wrap;
         .reference {
           margin: 1rem;
+          font-size: 1.3rem;
+          color: white;
+          font-family: $f-title;
         }
       }
     }

@@ -2,7 +2,7 @@
   <footer class="frow">
     <div class="info fcolumn">
       <h2>Wilde English</h2>
-      <a class="ctn-linkedin" href="https://www.linkedin.com/in/fiona-fitzpatrick-5171a446" target="_blank"><img class="linkedin" src="http://via.placeholder.com/50x50" alt=""></a>
+      <a class="ctn-linkedin" href="https://www.linkedin.com/in/fiona-fitzpatrick-5171a446" target="_blank"><img class="linkedin" src="~@/assets/img/linkedin.png" alt=""></a>
       <div class="details fcolumn">
         <div class="line">40, rue des Martyrs</div>
         <div class="cedex">75009 Paris</div>

@@ -2,16 +2,16 @@
   <section class="references fcolumn">
     <h2>Références</h2>
     <div class="ctn-references">
-      <img src="http://via.placeholder.com/1920x50" class="sprt" alt="">
+      <img src="~@/assets/img/border-gatsby.png" class="sprt" alt="">
       <div class="references fcolumn">
-        <img class="brand" src="http://via.placeholder.com/250x250" alt="">
+        <img class="brand" src="~@/assets/img/papillon-orange.png" alt="">
         <div class="inner-references frow">
           <div class="reference" v-for="reference in references" v-bind:key="reference.key">
             {{ reference.name }}
           </div>
         </div>
       </div>
-      <img src="http://via.placeholder.com/1920x50" class="sprt" alt="">
+      <img src="~@/assets/img/border-gatsby.png" class="sprt" alt="">
     </div>
   </section>
 </template>

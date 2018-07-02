@@ -3,7 +3,7 @@
     <div class="frow learning">
       <div class="ctn-img frow left">
         <div class="ctn-zebra">
-          <img src="http://via.placeholder.com/500x500" class="zebra" alt="">
+          <img src="~@/assets/img/zebre.gif" class="zebra" alt="">
         </div>
       </div>
       <article class="content right">
@@ -31,7 +31,7 @@
       </article>
       <div class="ctn-img right">
         <div class="ctn-portrait">
-          <img src="http://via.placeholder.com/500x800" alt="">
+          <img src="~@/assets/img/fiona.gif" alt="">
         </div>
       </div>
       <div class="bottom-mention frow">
