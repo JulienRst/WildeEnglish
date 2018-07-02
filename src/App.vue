@@ -5,6 +5,8 @@
     <Reminder/>
     <Quote />
     <Artist />
+    <References />
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import About from './components/About'
 import Reminder from './components/Reminder'
 import Quote from './components/Quote'
 import Artist from './components/Artist'
+import References from './components/References'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
@@ -22,7 +26,9 @@ export default {
     About,
     Reminder,
     Quote,
-    Artist
+    Artist,
+    References,
+    Footer
   }
 }
 </script>

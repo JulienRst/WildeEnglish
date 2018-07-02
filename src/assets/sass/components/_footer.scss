@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  .map-container {
+    width: 50%;
+  }
+
+  .info {
+    padding: 1rem;
+    width: 50%;
+    align-items: flex-end;
+    text-align: right;
+
+    .ctn-linkedin {
+      margin: 1.5rem 0;
+    }
+
+    .details {
+      margin-bottom: 2rem;
+
+      div {
+        margin-bottom: 0.3rem;
+      }
+    }
+
+    .prefect {
+      font-style: italic;
+    }
+  }
+}

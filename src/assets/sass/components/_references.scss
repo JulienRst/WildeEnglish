@@ -1,0 +1,20 @@
+section.references {
+  .ctn-references {
+    width: 100%;
+    .sprt {
+      width: 100%;
+    }
+
+    .references {
+      padding: 2rem;
+
+      .inner-references {
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        .reference {
+          margin: 1rem;
+        }
+      }
+    }
+  }
+}
