@@ -1,12 +1,34 @@
 <template lang="html">
   <section class="artist">
     <h2>Parmi les artistes et producteurs <br />qui me font confiance :</h2>
+    <div class="phantom-artist-container">
+      <div class="ctn-artists frow">
+        <div :style="{zIndex: artists.length - artist.key}" :class="{'ctn-artist fcolumn': true, 'top': (artist.key % 2 === 0), 'bottom': (artist.key % 2 !== 0)}" v-for="artist in artists" v-bind:key='artist.key'>
+          <img class="artist-img" :src="generateUrl(artist.img)" alt="">
+          <div class="artist-name">
+            {{ artist.name }}
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
+import Artists from '../fixtures/artists'
+
 export default {
-  name: 'Artist'
+  name: 'Artist',
+  data() {
+    return {
+      artists: Artists
+    }
+  },
+  methods: {
+    generateUrl(end) {
+      return `/static/img/artists/${end}`
+    }
+  }
 }
 </script>
 

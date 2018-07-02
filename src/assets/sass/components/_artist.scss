@@ -1,4 +1,51 @@
 section.artist {
   text-align: center;
-  padding: 4rem;
+  padding: 4rem 0;
+
+  .phantom-artist-container {
+    margin-top: 4rem;
+    position: relative;
+    height: 400px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .ctn-artists {
+      position: absolute;
+      left: 150px;
+      top: 0;
+      height: 100%;
+
+      .ctn-artist {
+        height: 100%;
+        width: 230px;
+        align-items: flex-start;
+
+        &.top {
+        }
+
+        &.bottom {
+          flex-direction: column-reverse;
+          &:first-child {
+            transform: none;
+          }
+        }
+
+        img {
+          width: 15rem;
+        }
+
+        .artist-name {
+          font-family: $f-title;
+          margin: 1rem 0;
+        }
+
+        &:not(:first-child) .artist-name {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
 }
