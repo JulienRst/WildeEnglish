@@ -6,17 +6,24 @@ section.artist {
     margin-top: 4rem;
     position: relative;
     height: 400px;
-    overflow-y: auto;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    overflow-y: hidden;
 
     .ctn-artists {
       position: absolute;
       left: 150px;
       top: 0;
       height: 100%;
+      cursor: crosshair;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2000;
+      }
 
       .ctn-artist {
         height: 100%;
