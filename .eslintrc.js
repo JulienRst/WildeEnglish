@@ -48,6 +48,8 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': ['error', 'never'],
     'semi': ['error', 'never'],
-    'max-len': ['error', {code : 1000}]
+    'max-len': ['error', {code : 1000}],
+    'no-console': ["error", { allow: ["log", "warn", "error"] }],
+    'no-param-reassign': ["error", { "props": false }]
   }
 }
