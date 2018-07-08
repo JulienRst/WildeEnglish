@@ -33,4 +33,29 @@ section.references {
       }
     }
   }
+
+  @media (max-width: 900px) {
+    .ctn-references {
+      .references {
+        padding: 2rem;
+
+        .inner-references {
+          padding: 0;
+        }
+      }
+    }
+
+    @media (max-width: 700px) {
+      .ctn-references {
+        .references {
+          .inner-references {
+            .reference {
+              margin: 0.5rem;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }

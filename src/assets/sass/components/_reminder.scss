@@ -39,4 +39,34 @@ section.reminder {
       font-size: 0.8rem;
     }
   }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+
+    .remind {
+      width: 100%;
+
+      &:nth-child(2n - 1) {
+        margin-right: 0;
+      }
+    }
+
+    @media (max-width: 490px) {
+      padding: 3rem 1rem;
+
+      .insect {
+        display: none;
+      }
+
+      .remind {
+        margin-bottom: 2rem;
+
+        .text {
+          .title {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
 }

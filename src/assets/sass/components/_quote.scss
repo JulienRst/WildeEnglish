@@ -21,4 +21,13 @@ section.quote {
       font-style: italic;
     }
   }
+
+  @media (max-width: 900px) {
+    min-height: auto;
+
+    .quotation {
+      padding: 2rem;
+      font-size: 1.5rem;
+    }
+  }
 }

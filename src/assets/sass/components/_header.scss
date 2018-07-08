@@ -10,14 +10,13 @@ header {
 
   h1 {
     text-transform: uppercase;
-    margin-bottom: 1rem;
     font-size: 5rem;
   }
 
   .quote {
     max-width: 40rem;
-    margin-bottom: 1rem;
     font-size: 2rem;
+    padding: 1rem;
   }
 
   .artist {
@@ -53,5 +52,21 @@ header {
       min-height: 100%;
       min-width: 100%;
     }
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .quote {
+      font-size: 1.2rem;
+    }
+
+    .artist {
+      font-size: 1.2rem;
+    }  
   }
 }
