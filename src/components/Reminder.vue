@@ -9,7 +9,7 @@
           <span class="underscore"></span>
           <h3>{{ remind.title }}</h3>
         </div>
-        <p class="text">{{ remind.description}}</p>
+        <p class="text" v-html="remind.description"></p>
       </div>
     </div>
   </section>
@@ -29,17 +29,17 @@ export default {
         {
           img: Insect4,
           title: 'Performance',
-          description: "Des formations opérationnelles pour gagner en autonomie, maîtriser l'anglais devotre secteur professionnel ou artistique, communiquer par email et téléphone, participer activement à une réunion, mener vos négociations. L’objectif - se reconnaître et se sentir plus à l’aise en anglais."
+          description: "Des formations opérationnelles pour <span class='bold'>gagner en autonomie</span>, maîtriser l'anglais devotre secteur professionnel ou artistique, communiquer par email et téléphone, participer activement à une réunion, mener vos négociations. <span class='bold'>L’objectif - se reconnaître et se sentir plus à l’aise en anglais.</span>"
         },
         {
           img: Insect1,
           title: 'Expression orale',
-          description: "L'approche pédagogique met l'accent sur l'oral au travers de discussions, de jeux de rôles et de mises en situation."
+          description: "L'approche pédagogique met <span class='bold'>l'accent sur l'oral</span> au travers de discussions, de jeux de rôles et de mises en situation."
         },
         {
           img: Insect2,
           title: 'Efficacité',
-          description: "Je propose des modules sur mesure, adaptés à vos enjeux et à votre environnement professionnel et personnel. Je m'adapte à vous et à vos besoins spécifiques. Un regard individuel mène au progrès et à la confiance. C'est essentiel et primordial pour moi."
+          description: "Je propose des <span class='bold'>modules sur mesure</span>, adaptés à vos enjeux et à votre environnement professionnel et personnel. Je m'adapte à vous et à vos besoins spécifiques. Un regard individuel mène au <span class='bold'>progrès</span> et à la <span class='bold'>confiance</span>. C'est essentiel et primordial pour moi."
         },
         {
           img: Insect3,

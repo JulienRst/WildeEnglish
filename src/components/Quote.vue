@@ -3,7 +3,7 @@
     <img src="~@/assets/img/green-border.png" class="border-top" alt="">
     <div class="quotation">
       <div class="cites">
-        I am interested in <span class="color">language</span><br />
+        I am interested in <span class="bold">language</span><br />
         because it either wounds or seduces me
       </div>
       <div class="artist">

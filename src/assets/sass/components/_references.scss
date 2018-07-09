@@ -29,11 +29,13 @@ section.references {
         padding: 0 6rem;
         margin-top: 2rem;
         flex-wrap: wrap;
+
         .reference {
           margin: 1rem;
           font-size: 1.3rem;
           color: white;
           font-family: $f-title;
+          line-height: 1;
         }
       }
     }
