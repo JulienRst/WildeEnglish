@@ -29,7 +29,7 @@ export default {
         {
           img: Insect4,
           title: 'Performance',
-          description: "L'impression que vous stagnez ? Votre connaissance de l'anglais évoluera avec vous et vous allez apprendre tous les jours - dans le plaisir !"
+          description: "Des formations opérationnelles pour gagner en autonomie, maîtriser l'anglais devotre secteur professionnel ou artistique, communiquer par email et téléphone, participer activement à une réunion, mener vos négociations. L’objectif - se reconnaître et se sentir plus à l’aise en anglais."
         },
         {
           img: Insect1,

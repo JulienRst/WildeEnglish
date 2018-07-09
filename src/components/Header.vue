@@ -9,6 +9,7 @@
     <div class="parallaxe-child background-container" :style="{zIndex: 1}">
       <img src="~@/assets/img/3.png" alt="">
     </div>
+    <div class="shadow"></div>
     <div class="parallaxe-child title fcolumn" :style="{zIndex: 2}">
       <h1>Wilde English</h1>
       <div class="quote">
@@ -35,7 +36,7 @@ export default {
     const zoneMin = 0
     const zoneMax = headerRef.offsetHeight
 
-    const factor = [0.6, 0.7, 0.7, -0.4, 0.9]
+    const factor = [1, 0.7, 0.7, -0.4, 0.9]
 
     window.addEventListener('scroll', () => {
       let value = 0

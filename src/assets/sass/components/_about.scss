@@ -104,11 +104,29 @@ section.about {
   }
 
   .fiona {
-    margin-top: -8rem;
+    // margin-top: -8rem;
     position: relative;
+
+    .ctn-articles {
+      align-items: flex-start;
+      margin-bottom: 2rem;
+
+      .frow {
+        align-items: flex-start;
+
+        .content {
+          padding-top: 1rem;
+          &:last-child {
+            padding: 1rem;
+          }
+        }
+      }
+    }
+
     .content {
       padding-left: 10%;
       align-items: flex-start;
+      margin-bottom: 2rem;
     }
 
     .bottom-mention {

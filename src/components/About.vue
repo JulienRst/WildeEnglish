@@ -16,38 +16,18 @@
       </article>
     </div>
     <div class="frow fiona">
-      <article class="content fcolumn left">
-        <h2>Fiona FitzPatrick</h2>
-        <p class="emphase">
-          Formatrice Irlandaise, totalement bilingue. Service de traduction et <br />
-          interprétariat disponibles
-        </p>
-        <p class="text">
-          Cela fait des années que je travaille avec un large éventail de professionnels
-          dans tous les milieux artistiques et créatifs. Je connais vos soucis et
-          appréhension vis à vis de cette langue devenue <span class="bold">incontournable</span>
-          dans le monde actuel. Je saurai, par conséquent, m'adapter à vos besoins spécifiques.
-        </p>
-      </article>
-      <div class="ctn-img right">
-        <div class="ctn-portrait">
-          <img src="~@/assets/img/fiona.gif" alt="">
-        </div>
-      </div>
-      <div class="bottom-mention frow">
-        <article class="content">
-          <h3>Vous êtes un vrai débutant ?</h3>
-          <p class="text">
-            Je peux vous faire gagner en confiance et aisance à l'oral.
-            Vous allez y arriver. J'en suis sûre !
+      <div class="ctn-articles fcolumn">
+        <article class="content fcolumn left">
+          <h2>Fiona FitzPatrick</h2>
+          <p class="emphase">
+            Formatrice Irlandaise, totalement bilingue. <br />
+            Service de traduction et interprétariat disponibles
           </p>
-        </article>
-        <article class="content">
-          <h3>Besoin de passer au stade supérieur ?</h3>
           <p class="text">
-            L'impression que vous stagnez ? Votre connaisance de l'anglais
-            évoluera avec vous et vous allez apprendre tous les jours
-            - dans le plaisir !
+            Cela fait des années que je travaille avec un large éventail de professionnels
+            dans tous les milieux artistiques et créatifs. Je connais vos soucis et
+            appréhension vis à vis de cette langue devenue <span class="bold">incontournable</span>
+            dans le monde actuel. Je saurai, par conséquent, m'adapter à vos besoins spécifiques.
           </p>
         </article>
         <article class="content">
@@ -58,6 +38,28 @@
             (anciennement DIF).
           </p>
         </article>
+        <div class="frow">
+          <article class="content">
+            <h3>Vous êtes un vrai débutant ?</h3>
+            <p class="text">
+              Je peux vous faire gagner en confiance et aisance à l'oral.
+              Vous allez y arriver. J'en suis sûre !
+            </p>
+          </article>
+          <article class="content">
+            <h3>Besoin de passer au stade supérieur ?</h3>
+            <p class="text">
+              L'impression que vous stagnez ? Votre connaisance de l'anglais
+              évoluera avec vous et vous allez apprendre tous les jours
+              - dans le plaisir !
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="ctn-img right">
+        <div class="ctn-portrait">
+          <img src="~@/assets/img/fiona.gif" alt="">
+        </div>
       </div>
     </div>
   </section>
