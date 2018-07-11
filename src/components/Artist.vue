@@ -2,7 +2,7 @@
   <section class="artist">
     <h2>Parmi les artistes, producteurs et réalisateurs<br />qui me font confiance :</h2>
     <div class="phantom-artist-container">
-      <div id="artists" class="ctn-artists frow" @mousedown="startCapture($event)" @mouseup="endCapture()" @mousemove="capture($event)">
+      <div id="artists" class="ctn-artists frow" v-touch:swipe.left="moveLeft" v-touch:swipe.right="moveRight" @mousedown="startCapture($event)" @mouseup="endCapture()" @mousemove="capture($event)">
         <div :style="{zIndex: artists.length - artist.key}" :class="{'ctn-artist fcolumn': true, 'top': (artist.key % 2 === 0), 'bottom': (artist.key % 2 !== 0)}" v-for="artist in artists" v-bind:key='artist.key'>
           <img class="artist-img" :src="generateUrl(artist.img)" alt="">
           <div class="artist-name">
@@ -51,6 +51,14 @@ export default {
       this.basis = this.current
       this.startCaptureValue = 0
       this.captureStatus = false
+    },
+    moveLeft() {
+      this.basis += 400
+      this.artistsRef.style.left = `${this.basis}px`
+    },
+    moveRight() {
+      this.basis -= 400
+      this.artistsRef.style.left = `${this.basis}px`
     }
   }
 }
