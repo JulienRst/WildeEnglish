@@ -2,18 +2,22 @@ section.artist {
   text-align: center;
   padding: 10rem 0;
 
+  h2 {
+    padding: 0 1rem;
+  }
+
   .phantom-artist-container {
     margin-top: 4rem;
     position: relative;
     height: 400px;
     overflow-x: hidden;
-
     .ctn-artists {
       position: absolute;
       left: 150px;
       top: 0;
       height: 100%;
       cursor: crosshair;
+      transition: 0.5s;
 
       &::after {
         content: '';

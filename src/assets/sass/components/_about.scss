@@ -116,11 +116,16 @@ section.about {
 
         .content {
           padding-top: 1rem;
+          width: 100%;
           &:last-child {
             padding: 1rem;
           }
         }
       }
+    }
+
+    .ctn-img {
+      flex-shrink: 0;
     }
 
     .content {

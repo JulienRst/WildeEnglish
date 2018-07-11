@@ -58,7 +58,7 @@
       </div>
       <div class="ctn-img right">
         <div class="ctn-portrait">
-          <img src="~@/assets/img/fiona.gif" alt="">
+          <img src="~@/assets/img/fiona.jpg" alt="">
         </div>
       </div>
     </div>

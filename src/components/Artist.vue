@@ -1,8 +1,8 @@
 <template lang="html">
   <section class="artist">
     <h2>Parmi les artistes, producteurs et réalisateurs<br />qui me font confiance :</h2>
-    <div class="phantom-artist-container">
-      <div id="artists" class="ctn-artists frow" v-touch:swipe.left="moveLeft" v-touch:swipe.right="moveRight" @mousedown="startCapture($event)" @mouseup="endCapture()" @mousemove="capture($event)">
+    <div class="phantom-artist-container" v-touch:swipe.left="moveLeft" v-touch:swipe.right="moveRight">
+      <div id="artists" class="ctn-artists frow"  @mousedown="startCapture($event)" @mouseup="endCapture()" @mousemove="capture($event)">
         <div :style="{zIndex: artists.length - artist.key}" :class="{'ctn-artist fcolumn': true, 'top': (artist.key % 2 === 0), 'bottom': (artist.key % 2 !== 0)}" v-for="artist in artists" v-bind:key='artist.key'>
           <img class="artist-img" :src="generateUrl(artist.img)" alt="">
           <div class="artist-name">
@@ -44,7 +44,12 @@ export default {
       if (this.captureStatus) {
         const diff = e.screenX - this.startCaptureValue
         this.current = this.basis - (2 * diff)
-        this.artistsRef.style.left = `${this.basis - (2 * diff)}px`
+        if (this.current > 150) {
+          this.current = 150
+        } else if (this.current < -8000) {
+          this.current = -8000
+        }
+        this.artistsRef.style.left = `${this.current}px`
       }
     },
     endCapture() {
@@ -53,12 +58,18 @@ export default {
       this.captureStatus = false
     },
     moveLeft() {
-      this.basis += 400
-      this.artistsRef.style.left = `${this.basis}px`
+      console.log('Move Left', this.basis)
+      if (this.basis < 150) {
+        this.basis += 400
+        this.artistsRef.style.left = `${this.basis}px`
+      }
     },
     moveRight() {
-      this.basis -= 400
-      this.artistsRef.style.left = `${this.basis}px`
+      console.log('Move Right', this.basis)
+      if (this.basis > -8000) {
+        this.basis -= 400
+        this.artistsRef.style.left = `${this.basis}px`
+      }
     }
   }
 }
