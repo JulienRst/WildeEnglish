@@ -1,7 +1,7 @@
 <template lang="html">
   <footer class="frow">
     <div class="info fcolumn">
-      <h2>Wilde English</h2>
+      <h2>WILDE ENGLISH</h2>
       <a class="ctn-linkedin" href="https://www.linkedin.com/in/fiona-fitzpatrick-5171a446" target="_blank"><img class="linkedin" src="~@/assets/img/linkedin.png" alt=""></a>
       <div class="details fcolumn">
         <div class="line">40, rue des Martyrs</div>

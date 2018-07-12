@@ -18,11 +18,15 @@ header {
     max-width: 50rem;
     font-size: 2rem;
     padding: 1rem;
+    font-family: $f-title;
+    line-height: 2.2rem;
   }
 
   .artist {
     font-style: italic;
     font-size: 2rem;
+    font-family: $f-title;
+    line-height: 2.2rem;
 
     &::before, &::after {
       content: '-';

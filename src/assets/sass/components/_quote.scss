@@ -12,6 +12,9 @@ section.quote {
 
   .quotation {
     font-size: 2.5rem;
+    font-family: $f-title;
+    line-height: 2.8rem;
+
     .cites {
       text-align: center;
     }
