@@ -92,7 +92,7 @@ const Artists = [
   {
     key: 19,
     name: 'Shaggy',
-    img: 'artistes17.png'
+    img: 'artistes19.png'
   },
   {
     key: 20,

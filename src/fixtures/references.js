@@ -1,115 +1,132 @@
 const References = [
   {
     key: 0,
-    name: 'Afdas',
-    img: 'afdas.png'
+    name: 'Universal Music France'
   },
   {
     key: 1,
-    name: 'Auguri Productions',
-    img: 'auguri-productions.png'
+    name: 'Sony Music Entertainment'
   },
   {
     key: 2,
-    name: 'Drouot',
-    img: 'drouot.png'
+    name: 'Sony ATV Publishing'
   },
   {
     key: 3,
-    name: 'Europe 1',
-    img: 'Europe1.png'
+    name: 'PIAS France'
   },
   {
     key: 4,
-    name: 'FF Groupe',
-    img: 'ffgroupe.png'
+    name: 'Warner Music France'
   },
   {
     key: 5,
-    name: 'France Inter',
-    img: 'franceinter.png'
+    name: 'tôt Ou tard'
   },
   {
     key: 6,
-    name: 'Fun Radio',
-    img: 'funradio.png'
+    name: 'Green United Music'
   },
   {
     key: 7,
-    name: 'Gap',
-    img: 'gap.png'
+    name: 'We are social'
   },
   {
     key: 8,
-    name: 'Nocibe',
-    img: 'Nocibe.png'
+    name: 'Fred & Farid Group'
   },
   {
     key: 9,
-    name: 'Radio Nova',
-    img: 'nova.png'
+    name: 'GAP France'
   },
   {
     key: 10,
-    name: 'Pias',
-    img: 'pias.png'
+    name: 'France Inter'
   },
   {
     key: 11,
-    name: 'Skyrock',
-    img: 'Skyrock.png'
+    name: 'Europe 1'
   },
   {
     key: 12,
-    name: 'Sony Music',
-    img: 'sony.png'
+    name: 'Radio NOVA'
   },
   {
     key: 13,
-    name: 'Sony ATV',
-    img: 'sonyatv.png'
+    name: 'Fun Radio'
   },
   {
     key: 14,
-    name: 'Superette',
-    img: 'Superette.png'
+    name: 'Skyrock'
   },
   {
     key: 15,
-    name: 'Tôt ou tard',
-    img: 'totoutard.png'
+    name: 'Hotmix Radio'
   },
   {
     key: 16,
-    name: 'le Trianon',
-    img: 'trianon.png'
+    name: 'Virgin Radio'
   },
   {
     key: 17,
-    name: 'Universal Music France',
-    img: 'universal.png'
+    name: 'M6'
   },
   {
     key: 18,
-    name: 'Warner',
-    img: 'Warner.png'
+    name: 'AFDAS'
   },
   {
     key: 19,
-    name: 'Young Director Award',
-    img: 'YDA-award.png'
+    name: 'Le Trianon'
   },
   {
     key: 20,
-    name: 'Zouave',
-    img: 'zouave.png'
+    name: 'Velvette Underwear'
   },
   {
     key: 21,
-    name: '100BON',
-    img: '100BON.png'
+    name: 'Martin Lindstrom Company'
+  },
+  {
+    key: 22,
+    name: 'Superette Film Production & Gallery'
+  },
+  {
+    key: 23,
+    name: 'Nocibé'
+  },
+  {
+    key: 24,
+    name: 'Young Directors Awards'
+  },
+  {
+    key: 25,
+    name: 'Les Producers'
+  },
+  {
+    key: 26,
+    name: 'Gerard Drouot Productions'
+  },
+  {
+    key: 27,
+    name: 'Auguri Produtions'
+  },
+  {
+    key: 28,
+    name: 'Zouave Productions'
+  },
+  {
+    key: 29,
+    name: 'Zouave Productions'
+  },
+  {
+    key: 30,
+    name: 'Manzalab Group'
+  },
+  {
+    key: 31,
+    name: '100BON'
   }
-
 ]
 
 export default References
