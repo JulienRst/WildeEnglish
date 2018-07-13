@@ -3,8 +3,13 @@
     <img src="~@/assets/img/green-border.png" class="border-top" alt="">
     <div class="quotation">
       <div class="cites">
-        I am interested in <span class="bold">language</span><br />
-        because it either wounds or seduces me
+        <div class="part">
+          I am interested in <span class="bold">language</span>
+        </div>
+        <div class="part">
+          because it either wounds or seduces me
+        </div>
+        <br />
       </div>
       <div class="artist">
         - Roland Barthes

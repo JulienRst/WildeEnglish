@@ -29,7 +29,7 @@ const References = [
   },
   {
     key: 7,
-    name: 'We are social'
+    name: 'We Are Social'
   },
   {
     key: 8,
@@ -109,7 +109,7 @@ const References = [
   },
   {
     key: 27,
-    name: 'Auguri Produtions'
+    name: 'Auguri Productions'
   },
   {
     key: 28,
@@ -117,7 +117,7 @@ const References = [
   },
   {
     key: 29,
-    name: 'Zouave Productions'
+    name: 'Maif Social Club'
   },
   {
     key: 30,
@@ -126,6 +126,26 @@ const References = [
   {
     key: 31,
     name: '100BON'
+  },
+  {
+    key: 32,
+    name: 'Initial Artist Services'
+  },
+  {
+    key: 33,
+    name: 'Mercury'
+  },
+  {
+    key: 34,
+    name: 'Polydor'
+  },
+  {
+    key: 35,
+    name: 'Barclay'
+  },
+  {
+    key: 36,
+    name: 'Off Productions'
   }
 ]
 

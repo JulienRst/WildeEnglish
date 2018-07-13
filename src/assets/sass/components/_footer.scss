@@ -10,11 +10,13 @@ footer {
     align-items: flex-end;
     text-align: right;
 
-    .ctn-linkedin {
-      margin: 1.5rem 0;
+    .ctn-socials {
+      padding-bottom: 1rem;
 
-      img {
-        width: 3rem;
+      .ctn-social {
+        img {
+          width: 2rem;
+        }
       }
     }
 

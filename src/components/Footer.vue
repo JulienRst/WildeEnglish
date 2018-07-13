@@ -2,13 +2,17 @@
   <footer class="frow">
     <div class="info fcolumn">
       <h2>WILDE ENGLISH</h2>
-      <a class="ctn-linkedin" href="https://www.linkedin.com/in/fiona-fitzpatrick-5171a446" target="_blank"><img class="linkedin" src="~@/assets/img/linkedin.png" alt=""></a>
       <div class="details fcolumn">
         <div class="line">40, rue des Martyrs</div>
         <div class="cedex">75009 Paris</div>
         <div class="tel"><span class="icon-phone"></span> <a href="tel:0622743607">06 22 74 36 07</a></div>
         <div class="mail"><span class="icon-mail-alt"></span> <a href="mailto:wilde.english@gmail.com">wilde.english@gmail.com</a></div>
         <div class="siret">Siret: 532 789 013 00010</div>
+      </div>
+      <div class="ctn-socials">
+        <a class="ctn-social" :href="linkedinLink" target="_blank"><img class="linkedin" src="~@/assets/img/linkedin.png" alt=""></a>
+        <a class="ctn-social" :href="instagramLink" target="_blank"><img class="linkedin" src="~@/assets/img/instagram.png" alt=""></a>
+        <a class="ctn-social" :href="facebookLink" target="_blank"><img class="linkedin" src="~@/assets/img/facebook.svg" alt=""></a>
       </div>
       <div class="prefect">
         Organisme de formation déclaré auprès <br />
@@ -38,7 +42,10 @@ export default {
         {
           position: { lat: 48.879357, lng: 2.339982 }
         }
-      ]
+      ],
+      facebookLink: process.env.FACEBOOK,
+      instagramLink: process.env.INSTAGRAM,
+      linkedinLink: process.env.LINKEDIN
     }
   }
 }

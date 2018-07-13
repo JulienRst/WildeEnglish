@@ -11,6 +11,27 @@ section.artist {
     position: relative;
     height: 400px;
     overflow-x: hidden;
+
+    .controls {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
+      z-index: 3000;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .control {
+        color: white;
+        text-shadow: 0 5px 15px rgba(black, 0.2);
+        cursor: pointer;
+        padding: 1rem;
+      }
+    }
+
     .ctn-artists {
       position: absolute;
       left: 150px;
@@ -51,6 +72,8 @@ section.artist {
         .artist-name {
           font-family: $f-title;
           margin: 1rem 0;
+          line-height: 1;
+          text-align: left;
         }
 
         &:not(:first-child) .artist-name {

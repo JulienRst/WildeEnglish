@@ -13,8 +13,8 @@
     <div class="parallaxe-child title fcolumn" :style="{zIndex: 2}">
       <h1>Wilde English</h1>
       <div class="quote">
-        ART IS THE ONLY SERIOUS THING IN THE WORLD.
-        AND THE ARTIST IS THE ONLY PERSON WHO IS NEVER SERIOUS.
+        Art is the only serious thing in the world.
+        And the artist is the only person who is never serious.
       </div>
       <div class="artist">
         Oscar Wilde
