@@ -1,7 +1,7 @@
 'use strict'
 module.exports = {
   NODE_ENV: '"production"',
-  FACEBOOK: '"https://www.facebook.com/pages/Wilde-English/183440152171877"',
+  FACEBOOK: '"https://www.facebook.com/Wilde-English-195898614415683/"',
   INSTAGRAM: '"https://www.instagram.com/wilde_english_paris/"',
   LINKEDIN: '"https://www.linkedin.com/in/fiona-fitzpatrick-5171a446"'
 }

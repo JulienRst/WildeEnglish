@@ -12,7 +12,7 @@
         <br />
       </div>
       <div class="artist">
-        - Roland Barthes
+        - Roland Barthes -
       </div>
     </div>
     <img src="~@/assets/img/green-border.png" class="border-bottom" alt="">
