@@ -16,7 +16,7 @@ const Artists = [
   },
   {
     key: 4,
-    name: 'Art Garkunfel',
+    name: 'Art Garfunkel',
     img: 'artistes4.png'
   },
   {
@@ -41,7 +41,7 @@ const Artists = [
   },
   {
     key: 9,
-    name: 'Joan As Police',
+    name: 'Joan As Police Woman',
     img: 'artistes9.png'
   },
   {
@@ -59,11 +59,11 @@ const Artists = [
     name: 'Oscar & The Wolf',
     img: 'artistes12.png'
   },
-  {
-    key: 13,
-    name: 'Hosier',
-    img: 'artistes13.png'
-  },
+  // {
+  //   key: 13,
+  //   name: 'Hozier',
+  //   img: 'artistes13.png'
+  // },
   {
     key: 14,
     name: ' Robert Plant',
@@ -144,11 +144,11 @@ const Artists = [
     name: 'Dany Synthé',
     img: 'artistes29.png'
   },
-  {
-    key: 30,
-    name: 'Romain Tranchart',
-    img: 'artistes30.png'
-  },
+  // {
+  //   key: 30,
+  //   name: 'Romain Tranchart',
+  //   img: 'artistes30.png'
+  // },
   {
     key: 31,
     name: ' Julien Guetta',
@@ -164,11 +164,11 @@ const Artists = [
     name: 'Akon',
     img: 'artistes33.png'
   },
-  {
-    key: 34,
-    name: 'July Hygreck',
-    img: 'artistes34.png'
-  },
+  // {
+  //   key: 34,
+  //   name: 'July Hygreck',
+  //   img: 'artistes34.png'
+  // },
   {
     key: 35,
     name: 'Morcheeba',
@@ -178,6 +178,11 @@ const Artists = [
     key: 36,
     name: 'texas',
     img: 'artistes36.png'
+  },
+  {
+    key: 37,
+    name: 'Lenny Kravitz',
+    img: 'lenny.jpg'
   }
 ]
 

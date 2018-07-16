@@ -29,7 +29,7 @@ export default {
         {
           img: Insect4,
           title: 'Performance',
-          description: "Des formations opérationnelles pour <span class='bold'>gagner en autonomie</span>, maîtriser l'anglais devotre secteur professionnel ou artistique, communiquer par email et téléphone, participer activement à une réunion, mener vos négociations. <span class='bold'>L’objectif - se reconnaître et se sentir plus à l’aise en anglais.</span>"
+          description: "Des formations opérationnelles pour <span class='bold'>gagner en autonomie</span>, maîtriser l'anglais de votre secteur professionnel ou artistique, communiquer par email et téléphone, participer activement à une réunion, mener vos négociations. <span class='bold'>L’objectif - se reconnaître et se sentir plus à l’aise en anglais.</span>"
         },
         {
           img: Insect1,

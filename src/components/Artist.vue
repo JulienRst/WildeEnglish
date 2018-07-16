@@ -51,7 +51,7 @@ export default {
       }
     },
     moveRight() {
-      if (this.basis > -8000) {
+      if (this.basis > -7200) {
         this.basis -= 400
         this.artistsRef.style.left = `${this.basis}px`
       }
