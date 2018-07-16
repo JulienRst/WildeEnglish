@@ -10,7 +10,7 @@
         <h2>Apprentissage de <br />l'anglais</h2>
         <p class="text">
           Mon approche est <span class="bold">unique</span> et <span class="bold">dynamique</span>.
-          Je suis doté d'une solide expérience dans les secteurs de la musique, de l'art et de la
+          Je suis dotée d'une solide expérience dans les secteurs de la musique, de l'art et de la
           photo, de la mode, de la pub et des médias (notamment TV et radio).
         </p>
       </article>
@@ -21,7 +21,7 @@
           <h2>Fiona FitzPatrick</h2>
           <p class="emphase">
             Formatrice Irlandaise, totalement bilingue. <br />
-            Service de traduction et interprétariat disponibles
+            Service de traduction et interprétariat disponibles.
           </p>
           <p class="text">
             Cela fait des années que je travaille avec un large éventail de professionnels

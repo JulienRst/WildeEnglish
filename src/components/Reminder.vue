@@ -44,7 +44,7 @@ export default {
         {
           img: Insect3,
           title: 'Outils',
-          description: 'Texte, vidéos, audio, images pour le développement lexical, grammatical et la compréhension orale. Utilisation des supports numériques et classiques - TED Conferences, le site de la BBC, articles et éditoriaux de la presse internationale, vos propres documents, livres référencées...'
+          description: 'Texte, vidéos, audio, images pour le développement lexical, grammatical et la compréhension orale. Utilisation des supports numériques et classiques - TED Conferences, le site de la BBC, articles et éditoriaux de la presse internationale, vos propres documents, livres de références...'
         }
       ]
     }
