@@ -3,7 +3,7 @@
     <div class="frow learning">
       <div class="ctn-img frow left">
         <div class="ctn-zebra">
-          <img src="~@/assets/img/zebre.gif" class="zebra" alt="">
+          <img src="~@/assets/img/diana-and-her-nymphs.jpg" class="zebra" alt="">
         </div>
       </div>
       <article class="content right">
