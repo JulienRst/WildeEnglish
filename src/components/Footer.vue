@@ -19,6 +19,9 @@
         du Préfet de la Région Ile de France <br />
         N° 11 75 47190 75
       </div>
+      <div class="mentions-legales">
+        <a href="#">Mentions Légales</a>
+      </div>
     </div>
     <div class='map-container'>
       <GmapMap :center='{lat:48.879357, lng:2.339982}' :zoom='14' map-type-id='terrain' ref="mapRef" style='width: 100%; height: 500px'>
