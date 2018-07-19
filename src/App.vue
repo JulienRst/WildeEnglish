@@ -1,35 +1,10 @@
-<template>
-  <div id="app">
-    <Header/>
-    <About/>
-    <Reminder/>
-    <Quote />
-    <Artist />
-    <References />
-    <Footer />
-  </div>
+<template lang="html">
+  <router-view></router-view>
 </template>
 
 <script>
-import Header from './components/Header'
-import About from './components/About'
-import Reminder from './components/Reminder'
-import Quote from './components/Quote'
-import Artist from './components/Artist'
-import References from './components/References'
-import Footer from './components/Footer'
-
 export default {
-  name: 'App',
-  components: {
-    Header,
-    About,
-    Reminder,
-    Quote,
-    Artist,
-    References,
-    Footer
-  }
+  name: 'App'
 }
 </script>
 

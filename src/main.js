@@ -4,6 +4,7 @@ import Vue from 'vue'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue2TouchEvents from 'vue2-touch-events'
 import App from './App'
+import router from './router/'
 
 Vue.config.productionTip = false
 
@@ -18,5 +19,6 @@ Vue.use(Vue2TouchEvents)
 new Vue({
   el: '#app',
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  router
 })

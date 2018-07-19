@@ -20,7 +20,7 @@
         N° 11 75 47190 75
       </div>
       <div class="mentions-legales">
-        <a href="#">Mentions Légales</a>
+        <router-link :to="{ name: 'CGU' }" target="_blank">Mentions légales</router-link>
       </div>
     </div>
     <div class='map-container'>
