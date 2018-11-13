@@ -114,6 +114,7 @@ section.about {
 
       .frow {
         align-items: flex-start;
+        width: 100%;
 
         .content {
           padding-top: 1rem;
@@ -133,6 +134,11 @@ section.about {
       padding-left: 10%;
       align-items: flex-start;
       margin-bottom: 2rem;
+
+      img {
+        max-width: 5rem;
+        width: 100%;
+      }
     }
 
     .bottom-mention {

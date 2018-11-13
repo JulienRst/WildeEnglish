@@ -4,10 +4,10 @@
     <div class="quotation">
       <div class="cites">
         <div class="part">
-          I am interested in <span class="bold">language</span>
+          Je m'intéresse au <span class="bold">langage</span>
         </div>
         <div class="part">
-          because it either wounds or seduces me
+          parce qu'il me blesse ou me séduit.
         </div>
         <br />
       </div>

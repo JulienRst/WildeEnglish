@@ -3,7 +3,7 @@
     <div class="frow learning">
       <div class="ctn-img frow left">
         <div class="ctn-zebra">
-          <img src="~@/assets/img/diana-and-her-nymphs.jpg" class="zebra" alt="">
+          <img src="~@/assets/img/panther.gif" class="zebra" alt="">
         </div>
       </div>
       <article class="content right">
@@ -30,14 +30,19 @@
             dans le monde actuel. Je saurai, par conséquent, m'adapter à vos besoins spécifiques.
           </p>
         </article>
-        <article class="content">
-          <h3>Organisme agréé par l'AFDAS.</h3>
-          <p class="text">
-            Préparons ensemble votre certification en anglais et faites une formation
-            efficace pour préparer le test TOEIC® en utilisant vos heures CPF
-            (anciennement DIF).
-          </p>
-        </article>
+        <div class="frow">
+          <article class="content">
+            <h3>Organisme agréé par l'AFDAS et DATADOCK.</h3>
+            <p class="text">
+              Préparons ensemble votre certification en anglais et faites une formation
+              efficace pour préparer le test TOEIC® en utilisant vos heures CPF
+              (anciennement DIF).
+            </p>
+          </article>
+          <article class="content">
+            <img src="~@/assets/img/data-dock.jpg" alt="">
+          </article>
+        </div>
         <div class="frow">
           <article class="content">
             <h3>Vous êtes un vrai débutant ?</h3>
