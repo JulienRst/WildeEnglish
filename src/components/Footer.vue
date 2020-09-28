@@ -3,11 +3,12 @@
     <div class='info fcolumn'>
       <h2>WILDE ENGLISH</h2>
       <div class='details fcolumn'>
-        <div class='line'>40, rue des Martyrs</div>
+        <div class='line'>Villa Moncey</div>
+        <div class='line'>50 bis, rue de Clichy</div>
         <div class='cedex'>75009 Paris</div>
         <div class='tel'><span class='icon-phone'></span> <a href='tel:0622743607'>06 22 74 36 07</a></div>
         <div class='mail'><span class='icon-mail-alt'></span> <a href='mailto:wilde.english@gmail.com'>wilde.english@gmail.com</a></div>
-        <div class='siret'>Siret: 532 789 013 00010</div>
+        <div class='siret'>Siret: 532 789 013 00028</div>
       </div>
       <div class='ctn-socials'>
         <a class='ctn-social' :href='linkedinLink' target='_blank'><img class='linkedin' src='~@/assets/img/linkedin.png' alt=''></a>
