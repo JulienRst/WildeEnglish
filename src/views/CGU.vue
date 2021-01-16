@@ -61,7 +61,7 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 
 <script>
 export default {
-	name: 'CGU'
+  name: 'CGU'
 }
 </script>
 

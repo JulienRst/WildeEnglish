@@ -8,9 +8,11 @@ import router from './router/'
 
 Vue.config.productionTip = false
 
+console.log(process.env)
+
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyDOfAwv8D38XNGYrcR5MAoueFxXePKbMOE'
+    key: process.env.GMAPS_KEY
   }
 })
 Vue.use(Vue2TouchEvents)
