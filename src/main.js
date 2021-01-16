@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyDOfAwv8D38XNGYrcR5MAoueFxXePKbMOE'
+    key: 'AIzaSyBCWlLLTdm5rBXU_zjVN88MhI4K2wKQw-Y'
   }
 })
 Vue.use(Vue2TouchEvents)
