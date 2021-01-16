@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class='map-container'>
-      <GmapMap :center='{lat:48.879357, lng:2.339982}' :zoom='14' map-type-id='terrain' ref="mapRef" style='width: 100%; height: 500px'>
+      <GmapMap :center='{lat:48.88027254774433, lng:2.3291531790731415}' :zoom='14' map-type-id='terrain' ref="mapRef" style='width: 100%; height: 500px'>
         <GmapMarker
           :key='index'
           v-for='(m, index) in markers'
@@ -46,7 +46,7 @@ export default {
     return {
       markers: [
         {
-          position: { lat: 48.879357, lng: 2.339982 }
+          position: { lat: 48.88027254774433, lng: 2.3291531790731415 }
         }
       ],
       facebookLink: process.env.FACEBOOK,

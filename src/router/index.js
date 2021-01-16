@@ -20,6 +20,10 @@ export default new Router({
       path: '/cgu/',
       name: 'CGU',
       component: CGU
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })
